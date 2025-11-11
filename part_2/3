@@ -1,0 +1,6 @@
+#!/bin/bash
+
+chars=({a..z} {0..9})
+echo "Пароль: $(for i in {1..6}; do echo -n ${chars[$RANDOM % 36]}; done)"
+
+
