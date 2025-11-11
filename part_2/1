@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo 'Введите имя файла'
+read file
+
+echo 'Введите слово'
+read word
+
+grep -o "$word" "$file" | wc -l
