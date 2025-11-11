@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo 'Напиши два числа'
+read one two
+
+if [ "$one" -eq "$two" ];
+then 
+	echo 'Равны'
+elif [ "$one" -gt "$two" ];
+then 
+	echo 'Первое больше второго'
+elif [ "$one" -lt "$two" ];
+then 
+	echo 'Второе больше первого'
+fi
