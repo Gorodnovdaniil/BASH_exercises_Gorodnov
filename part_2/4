@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ping -c 1 -W 3 google.com && echo 'Сервер отвечает'
